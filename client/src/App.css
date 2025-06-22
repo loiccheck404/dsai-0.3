@@ -18,6 +18,12 @@ body {
   padding: 0 20px;
 }
 
+.layout {
+  width: 100%;
+  border: 2px solid red;
+  margin: 0 auto;
+}
+
 /* Header Styles */
 header {
   background: rgba(255, 255, 255, 0.95);

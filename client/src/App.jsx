@@ -47,7 +47,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="layout">
       {toast && (
         <div
           style={{
@@ -70,7 +70,7 @@ function App() {
       <Header />
 
       <main>
-        <div className="container">
+        <div>
           <section className="cart-summary" style={{ margin: "2rem 0" }}>
             <h2>Cart</h2>
             {cart.length === 0 ? (
